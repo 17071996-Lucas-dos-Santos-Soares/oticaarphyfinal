@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ótica Arphy</title>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="shortcut icon" href="img/logo-otica-removebg-preview.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script
+  <!-- Progress Bar -->
+  <script src="js/progressbar.min.js"></script>
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container" id="nav-container">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="img/logo-otica-removebg-preview.png" alt="logotipo da ótica arphy" title="logo ótica arphy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+          aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu" href="#">Home
+              <span class="icon"><i class="bi bi-house"></i></span>
+            </a>
+            <a class="nav-item nav-link" id="about-menu" href="#">A otica
+              <span class="icon"><i class="bi bi-sunglasses"></i></span>
+            </a>
+            <a class="nav-item nav-link" id="services-menu" href="#">Serviços
+              <span class="icon"><i class="bi bi-gear"></i></span>
+            </a>
+            <a class="nav-item nav-link" id="team-menu" href="#">Time
+              <span class="icon"><i class="bi bi-people"></i></span>
+            </a>
+            <a class="nav-item nav-link" id="portfolio-menu" href="#">Produtos
+              <span class="icon"><i class="bi bi-layers"></i></span>
+            </a>
+            <a class="nav-item nav-link" id="contact-menu" href="#">Contato
+              <span class="icon"><i class="bi bi-phone"></i></span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <!-- slider -->
+      <div id="mainSlider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#mainSlider" data-slide-to="1"></li>
+          <li data-target="#mainSlider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/oculos-de-sol.webp" class="d-block w-100" alt="óculos na areia dá praia" title="óculos de sol">
+            <div class="carousel-caption d-md-block">
+              <h2>você vai para a praia</h5>
+                <p><span class="highlighter">deixe nossos óculos de sol fazer parte do seu dia, e do seu estilo</span></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/oculos-viajem.webp" class="d-block w-100" alt="mulher usando óculos fazendo viajem" title="óculos viajem">
+            <div class="carousel-caption d-md-block">
+              <h2>óculos bonitos, e modernos</h5>
+                <p><span class="highlighter">trazem um charme a mais para o seu dia á dia</span></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/moca-oculos.jpg" class="d-block w-100" alt="moça usando óculos" title="moça de óculos">
+            <div class="carousel-caption d-md-block">
+              <h2>Adiquira nossos produtos</h5>
+                <p><span class="highlighter">por preços inbativeis</span></p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- Sobre a empresa -->
+      <section id="about-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title text-center">Sobre a <span class="highlighter">ótica Arphy</span></h3>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid mx-auto about-img" src="img/oticaLoja.webp" alt="imagem da loja" title="otica-loja">
+            </div>
+            <div class="col-md-6 about-text">
+              <p>A Ótica Arphy é uma empresa com sede em São Paulo, especializada no comércio varejista de artigos de óptica. 
+                Fundada em 13 de novembro de 1998, pelo empresário Alberto Rodrigues de Freitas, a empresa tem se destacado 
+                no mercado pela qualidade dos produtos e serviços oferecidos.</p>
+              <p>Com um foco no atendimento personalizado, a Ótica Arphy oferece uma variedade de óculos e lentes, além de contar 
+                com um laboratório próprio para garantir a precisão e rapidez na entrega dos produtos. 
+                A empresa é reconhecida por sua atenção aos detalhes e pelo compromisso com a satisfação do cliente.</p>
+              <p></p>
+              <p>Veja outros diferenciais:</p>
+              <ul id="about-list">
+                <li><i class="fas fa-check"></i> Exame de Vista Completo:</li>
+                <li><i class="fas fa-check"></i> Consultoria de Estilo:</li>
+                <li><i class="fas fa-check"></i> Lentes Personalizadas</li>
+                <li><i class="fas fa-check"></i> Ajuste e Manutenção de Óculos</li>
+                <li><i class="fas fa-check"></i> Garantia Estendida</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Serviços da empresa -->
+      <div id="services-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Nossas <span class="highlighter">especialidades</span></h3>
+            </div>
+            <div class="col-md-4 service-box service1">
+              <i class="bi bi-eye"></i>
+              <h4>Exames de <span class="highlighter">visão</span></h4>
+              <p>Realização de exames oftalmológicos para determinar a necessidade de óculos ou lentes de contato e para detectar problemas de visão.</p>
+            </div>
+            <div class="col-md-4 service-box service2">
+              <i class="bi bi-eyeglasses"></i>
+              <h4>óculos de <span class="highlighter">grau</span></h4>
+              <p>Venda e personalização de óculos de grau, incluindo a escolha de armações e lentes de acordo com a prescrição médica.</p>
+            </div>
+            <div class="col-md-4 service-box service3">
+              <i class="bi bi-sunglasses"></i>
+              <h4>Óculos de <span class="highlighter">sol</span></h4>
+              <p>Venda de óculos de sol com proteção UV, com ou sem grau, de várias marcas e estilos.</p>
+            </div>
+            <div class="col-md-4 service-box service4">
+              <i class="bi bi-shield-check"></i>
+              <h4>Óculos de <span class="highlighter">segurança</span></h4>
+              <p>Fornecimento de óculos de segurança para proteção ocular em ambientes de trabalho ou atividades específicas.</p>
+            </div>
+            <div class="col-md-4 service-box w-100 service5">
+              <i class="bi bi-emoji-sunglasses"></i>
+              <h4>Óculos <span class="highlighter">esportivos</span></h4>
+              <p>Venda de óculos especializados para práticas desportivas, que oferecem proteção e performance.</p>
+            </div>
+            <div class="col-md-4 service-box service6">
+              <i class="bi bi-telephone"></i>
+              <h4>Consultoria de <span class="highlighter">estilo</span></h4>
+              <p>Ajuda na escolha de armações que complementam o estilo e a personalidade do cliente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Dados da empresa-->
+      <div id="data-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 circle-box">
+              <div id="circleA"></div>
+              <p>Anos de existência</p>
+            </div>
+            <div class="col-md-3 circle-box">
+              <div id="circleB"></div>
+              <p>Clientes Felizes</p>
+            </div>
+            <div class="col-md-3 circle-box">
+              <div id="circleC"></div>
+              <p>Colaboradores</p>
+            </div>
+            <div class="col-md-3 circle-box">
+              <div id="circleD"></div>
+              <p>Cafézinhos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nosso time-->
+      <div id="team-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 our-team-title">
+              <h3 class="main-title">Nosso <span class="highlighter">Time</span></h3>
+            </div>
+            <div class="col-md-3 our-team-img">
+              <div class="card">
+                <img src="img/joão.webp" alt="João" title="joão" class="img-top">
+                <div class="card-body">
+                  <h5 class="card-title">João</h5>
+                  <p class="card-text"><strong>Oftalmologista</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 our-team-img">
+              <div class="card">
+                <img src="img/maria.webp" alt="Maria" title="Maria" class="img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Maria</h5>
+                  <p class="card-text"><strong>Optometrista</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 our-team-img">
+              <div class="card">
+                <img src="img/paulo.webp" alt="Paulo" title="Paulo" class="img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Paulo</h5>
+                  <p class="card-text"><strong>Vendedor de Ótica</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 our-team-img">
+              <div class="card">
+                <img src="img/katarina.webp" alt="Katarina" title="Katarina" class="img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Katarina</h5>
+                  <p class="card-text"><strong>Técnica em Óptica</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <!-- Portifólio -->
+      <section class="py-5 nossos-produtos animate-products" id="portfolio-area">
+        <h2 class="fw-bold text-center pb-1 pt-4 title-produtos main-title our-products-title">Nossos <span class="highlighter">produtos</span></h2>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-1"
+                  style="width: 18rem;">
+                  <img src="produtos/lentes de Contato.webp" class="card-img-top" alt="lentes de contato">
+                  <div class="card-body">
+                      <h3 class="card-text text-center fw-bold text-nowrap">lentes de contato</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-2"
+                  style="width: 18rem;">
+                  <img src="produtos/collirio.webp" class="card-img-top" alt="colirio">
+                  <div class="card-body">
+                      <h3 class="card-text fw-bold text-center">colirio</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-3" 
+              style="width: 18rem;">
+                  <img src="produtos/flanelas e panos de limpeza.webp" class="card-img-top" alt="flanelas de limpeza">
+                  <div class="card-body">
+                      <h3 class="card-text text-center fw-bold text-nowrap">flanelas de limpeza</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-4" 
+              style="width: 18rem;">
+                  <img src="produtos/lupas de aumento.webp" class="card-img-top" alt="lupas de aumento">
+                  <div class="card-body">
+                      <h3 class="card-text text-center fw-bold">lupas de aumento</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-5" 
+              style="width: 18rem;">
+                  <img src="produtos/Óculos de Grau.webp" class="card-img-top" alt="óculos de grau">
+                  <div class="card-body">
+                      <h3 class="card-text text-center fw-bold">óculos de grau</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-6" 
+              style="width: 18rem;">
+                  <img src="produtos/Óculos de Sol.webp" class="card-img-top" alt="óculos de sol">
+                  <div class="card-body">
+                      <h3 class="card-text text-center fw-bold">óculos de sol</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-6" 
+              style="width: 18rem;">
+                  <img src="produtos/Óculos de Grau-feminino.webp" class="card-img-top" alt="óculos de grau-feminino">
+                  <div class="card-body">
+                      <h3 class="card-text text-center fw-bold">óculos de grau feminino</h3>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card border-0 mx-auto btn" data-bs-toggle="modal" data-bs-target="#modal-6" 
+            style="width: 18rem;">
+                <img src="produtos/armacoes-ana-hickman.webp" class="card-img-top" alt="armacoes-ana-hickman">
+                <div class="card-body">
+                    <h3 class="card-text text-center fw-bold">Armações Ana Hickman</h3>
+                </div>
+            </div>
+        </div>
+      </div>
+  </section>
+      <!--Call to action-->
+      <div id="call-area">
+        <div class="container">
+          <div class="row">
+            <p>Deseja fazer um orçamento sem compromisso?</p>
+            <button class="main-btn" id="call-btn" href="https://api.whatsapp.com/message/MCQM3NQ7KWUBL1?autoload=1&app_absent=0" 
+            trget="_blank">Orçar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <!--rodapé-->
+  <footer>
+    <div id="contact-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="main-title">Entre em contato <span class="highlighter">conosco</span></h3>
+          </div>
+          <div class="col-md-4 contact-box fone">
+            <i class="fas fa-phone"></i>
+            <p><span class="contact-title">Ligue para:</span> (11) 3862-8464</p>
+            <p><span class="contact-title">Horários:</span> 8:00 - 19:00</p>
+          </div>
+          <div class="col-md-4 contact-box email">
+            <i class="fas fa-envelope"></i>
+            <p><span class="contact-title">Envie um email:</span>oticaarphy@gmail.com</p>
+          </div>
+          <div class="col-md-4 contact-box local">
+            <i class="fas fa-map-marker-alt"></i>
+            <p><span class="contact-title">Venha tomar um café:</span>R. Faustolo, 1378 - Lapa, São Paulo</p>
+          </div>
+          <div class="col-md-6" id="msg-box">
+            <p>Ou nos deixe uma mensagem:</p>
+          </div>
+          <div class="col-md-6" id="contact-form">
+            <form action="https://formsubmit.co/lucasstarttech@gmail.com" method="POST">
+              <input type="text" class="form-control" placeholder="E-mail" name="email" required>
+              <input type="text" class="form-control" placeholder="Assunto" name="subject" required>
+              <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+              <input type="submit" class="main-btn">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="copy-area">
+      <div class="container">
+        <div class="row">
+          <div class="icons">
+            <a href="https://api.whatsapp.com/message/MCQM3NQ7KWUBL1?autoload=1&app_absent=0" target="_blank"><i class="bi bi-whatsapp btn"></i></a>
+            <a href="https://www.instagram.com/oticaarphy/?hl=pt" target="_blank"><i class="bi bi-instagram btn"></i></a>
+            <a href="https://web.facebook.com/oticaarphy/?_rdc=1&_rdr" target="_blank"><i class="bi bi-facebook"></i></a>
+          </div>
+          <div class="col-md-12">
+            <p>Todos os direitos autorais, ótica Arphy</a> &copy; 2024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
