@@ -310,6 +310,28 @@ height: 100vh;
     color: #E6E0D6;
     text-align: center;
   }
+.product-btn {
+    background-color: #65DAF9;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 220px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    border-radius: 30px 0px 30px 30px;
+    transition: .5s;   
+  }
+  .product-btn:hover {
+    color: #444;
+  }
+  .product-btn i {
+    color: #fff;
+    transition: 2s ease-in-out;
+  }
+  .product-btn:hover i{
+    background-color: #25D366;
+  }
   .accordion-body {
     border-radius: 15px;
   }
