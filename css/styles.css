@@ -53,7 +53,6 @@ p, li {
 
 .navbar-brand {
   padding: 0;
-  color: black;
 }
 
 #navbar-links a {
@@ -138,11 +137,6 @@ height: 100vh;
 }
 
 /* Sobre a empresa */
-
-#about-area {
-  background-color: #F9F9F9;
-}
-
 .main-title {
   color: #444;
   margin: 0 0 65px 0;
@@ -288,7 +282,7 @@ height: 100vh;
 /* Portifólio */
 #produtos {
   width: 100%;
-  height: 100%;
+  height: 400px;
   padding-top: 50px;
   padding-bottom: 50px;
   }
@@ -310,7 +304,7 @@ height: 100vh;
     color: #E6E0D6;
     text-align: center;
   }
-.product-btn {
+  .product-btn {
     background-color: #65DAF9;
     color: #FFF;
     text-transform: uppercase;
@@ -343,17 +337,6 @@ height: 100vh;
     outline: none;
   }
 
-/* news letter */
-#news-area {
-  text-align: center;
-  background-color: #f9f9f9;
-}
-
-#news-area p {
-  font-size: 18px;
-  margin-bottom: 40px;
-}
-
 #email-input {
   border-radius: 20px;
   border: 1px solid #94e9f2;
@@ -364,30 +347,9 @@ height: 100vh;
   height: 40px;
 }
 
-#news-btn {
-  border-radius: 20px;
-  border: 1px solid #94e9f2;
-  background-color: #94E9F2;
-  text-align: center;
-  text-transform: capitalize;
-  color: #fff;
-  height: 40px;
-  padding: 0px 30px;
-  margin-left: -120px;
-  position: absolute;
-  border: none;
-  transition: all 0.2s;
-}
-
-#news-btn:hover {
-  background-color: #444;
-  color: #fff;
-  transition: all 0.2s;
-  text-align: center;
-}
-
 /* call to action */
 #call-area {
+  width: 100%;
   background-color: #65daf9;
   text-transform: capitalize;
   display: flex;
@@ -543,9 +505,8 @@ input.form-control {
   padding: 0px;
 }
 }
-/* slider */
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
-  width: 100%;
+   width: 100%;
   height: auto;
 }
 
@@ -612,8 +573,12 @@ input.form-control {
     font-size: 16px;
   }
 }
+footer {
+  width: 100%;
+  background: #F9F9F9;
+}
 /* responsividade celular */
-@media(max-width: 320px) {
+@media(max-width: 480px) {
   h3.card-text {
     font-size: 1.1rem;
   }
