@@ -578,7 +578,7 @@ footer {
   background: #F9F9F9;
 }
 /* responsividade celular */
-@media(max-width: 320px) {
+@media(max-width: 480px) {
   body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
