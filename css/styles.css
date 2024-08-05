@@ -578,7 +578,11 @@ footer {
   background: #F9F9F9;
 }
 /* responsividade celular */
-@media(max-width: 480px) {
+@media(max-width: 320px) {
+  body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
   h3.card-text {
     font-size: 1.1rem;
   }
