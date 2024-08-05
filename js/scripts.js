@@ -11,7 +11,7 @@ $(document).ready(function () {
     step: function (state, circle) {
       circle.path.setAttribute('stroke', state.color);
 
-      let value = Math.round(circle.value() * 13);
+      let value = Math.round(circle.value() * 24);
       circle.setText(value);
 
     }
