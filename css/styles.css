@@ -2,6 +2,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {
@@ -478,7 +479,7 @@ input.form-control {
   outline: none;
 }
 /* responsividade tablet */
-@media(max-width: 900px) {
+@media(max-width: 921px) {
   /* geral */
   h3.card-text {
     font-size: 1.2rem;
@@ -578,7 +579,7 @@ footer {
   background: #F9F9F9;
 }
 /* responsividade celular */
-@media(max-width: 320px) {
+@media(max-width: 600px) {
   h3.card-text {
     font-size: 1.1rem;
   }
