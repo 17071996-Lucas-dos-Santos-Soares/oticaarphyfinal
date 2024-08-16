@@ -593,11 +593,6 @@ footer {
     justify-content: center;
     background: #00000080;
   }
-  .navbar-toggler {
-    margin-top: -80px;
-    margin-left: -1rem;
-    border-radius: 5px;
-  }
   
   #navbar-links a {
     background: #444;
