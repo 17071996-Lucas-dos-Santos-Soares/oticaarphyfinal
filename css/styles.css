@@ -591,9 +591,7 @@ footer {
     height: 74px;
     background: #00000080;
   }
-  button.navbar-toggler {
-    position: fixed;
-  }
+  
   #navbar-links a {
     background: #444;
   }
