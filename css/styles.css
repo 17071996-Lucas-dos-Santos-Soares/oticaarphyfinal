@@ -591,7 +591,7 @@ footer {
     height: 74px;
     background: #00000080;
   }
-  
+
   #navbar-links a {
     background: #444;
   }
@@ -693,7 +693,9 @@ img.img-fluid {
     margin: 0;
     width: 50%;
   }
-
+  .nossos-produtos img {
+    width: 100%;
+  }
   /* contact */
   .contact-box {
     border: none;
