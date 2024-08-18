@@ -14,14 +14,17 @@ body {
   background: #94E9F2;
   border-radius: 30px;
 }
+
 ::selection, .highlighter{
   background: #ff0000c0;
   color: #fff;
 }
+
 h4 {
   margin-top: 20px;
   text-align: center;
 }
+
 span.highlighter {
   background-color: #ff0000c0;
   padding: 2px 20px;
@@ -30,6 +33,7 @@ span.highlighter {
   font-weight: 300;
   color: #fff;
 }
+
 .row {
   margin: 0;
 }
@@ -317,8 +321,8 @@ height: 100vh;
     background-color: #65DAF9;
     color: #FFF;
     text-transform: uppercase;
-    width: 220px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
     padding: 10px 20px;
     border-radius: 30px;
     border: none;
@@ -327,6 +331,7 @@ height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
   }
   .product-btn a:hover {
     text-decoration: none;
@@ -338,7 +343,7 @@ height: 100vh;
   .product-btn:hover i{
     background-color: #25D366;
   }
-  .accordion-body {
+  .accordion-body { 
     border-radius: 15px;
   }
 
