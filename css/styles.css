@@ -3,6 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -504,6 +505,33 @@ height: 100vh;
 input.form-control {
   outline: none;
 }
+
+#scrollTopBtn {
+  width: 40px;
+  height: 40px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#scrollTopBtn i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#scrollTopBtn:hover {
+  transition: all .3s ease-in-out;
+  background-color: #65DAF9;
+}
 /* responsividade tablet */
 @media(max-width: 921px) {
   /* geral */
@@ -605,6 +633,7 @@ footer {
   width: 100%;
   background: #F9F9F9;
 }
+
 /* responsividade celular */
 @media(max-width: 600px) {
   h3.card-text {
