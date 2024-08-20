@@ -50,6 +50,7 @@ p, li {
 .navbar {
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
+  height: 70px;
 }
 
 #nav-container {
@@ -609,8 +610,6 @@ footer {
     font-size: 1.1rem;
   }
   .navbar {
-    width: 100%;
-    height: 74px;
     background: #00000080;
   }
 
@@ -619,9 +618,15 @@ footer {
   }
   .navbar-brand {
     margin-top: -80px;
+    padding-bottom: 1rem;
   }
-.navbar-toggler {
-    margin-left: -4rem;
+button.navbar-toggler {
+    margin: 0 auto;
+    margin-top: -7rem;
+  }
+  button.navbar-toggler:hover {
+    transition: all .3s ease-in-out;
+    background: #3EC1D5;
   }
   /* slider */
   #mainSlider .carousel-inner, #mainSlider .carousel-item {
