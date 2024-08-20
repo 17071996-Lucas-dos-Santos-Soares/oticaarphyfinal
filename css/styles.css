@@ -605,6 +605,9 @@ footer {
   .navbar-brand {
     margin-top: -80px;
   }
+.navbar-toggler {
+    margin-left: -4rem;
+  }
   /* slider */
   #mainSlider .carousel-inner, #mainSlider .carousel-item {
     width: 100%;
@@ -643,9 +646,9 @@ footer {
   margin-left: 20px;
   font-size: 18px;
 }
-img.img-fluid {
-  width: 100px;
-  height: 100px;
+.nossos-produtos img {
+  width: 50%;
+  margin-top: 8px;
 }
 #about, h3.main-title {
   margin-top: 5rem;
