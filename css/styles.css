@@ -346,6 +346,22 @@ height: 100vh;
   .accordion-body { 
     border-radius: 15px;
   }
+.poster {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 50px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.poster img {
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
+}
 
 #email-input {
   border-radius: 20px;
