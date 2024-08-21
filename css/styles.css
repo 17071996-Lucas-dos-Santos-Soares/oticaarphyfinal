@@ -642,9 +642,15 @@ footer {
   h3.card-text {
     font-size: 1.1rem;
   }
-  .navbar nav{
-    background: #00000080;
-    position: fixed;
+
+.header {
+  position: fixed;
+  z-index: 1000;
+}
+ .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 70px;
   }
 
   #navbar-links a {
