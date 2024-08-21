@@ -651,12 +651,13 @@ footer {
     margin-top: -80px;
     padding-bottom: 1rem;
   }
-
-button.navbar-toggler .navbar-toggler {
-    position: fixed;  
+  .navbar-toggler {
+    position: fixed;
+  }
+button.navbar-toggler {  
     margin: 0 auto;
     margin-top: -7rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
   button.navbar-toggler:hover .navbar-toggler:hover {
     transition: all .3s ease-in-out;
