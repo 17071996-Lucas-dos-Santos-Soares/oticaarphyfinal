@@ -655,7 +655,7 @@ footer {
 button.navbar-toggler {  
     margin: 0 auto;
     margin-top: -7rem;
-    margin-left: -4rem;
+    margin-left: 1rem;
   }
   button.navbar-toggler:hover .navbar-toggler:hover {
     transition: all .3s ease-in-out;
