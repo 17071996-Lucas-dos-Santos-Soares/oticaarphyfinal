@@ -639,7 +639,7 @@ footer {
   h3.card-text {
     font-size: 1.1rem;
   }
-  .navbar {
+  .navbar nav{
     background: #00000080;
     position: fixed;
   }
