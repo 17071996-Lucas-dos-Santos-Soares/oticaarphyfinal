@@ -638,7 +638,7 @@ footer {
 }
 
 /* responsividade celular */
-@media(max-width: 600px) {
+@media(max-width: 480px) {
   h3.card-text {
     font-size: 1.1rem;
   }
@@ -771,8 +771,30 @@ footer {
     border: none;
     margin-bottom: 0;
   }
+  .poster {
+    flex-direction: column;
+   }
+   .poster img {
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+  }
+  #scrollTopBtn {
+    width: 40px;
+    height: 40px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: -.7em;
+    z-index: 99;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 18px;
+  }
 }
-
 /* animações */
 .main-title, .about-text, .about-img, .service1, .service2, .service3, .service4, .service5, .service6, .animate-products, .fone, .email, .local{
   visibility: hidden;
