@@ -785,7 +785,7 @@ footer {
     display: none;
     position: fixed;
     bottom: 20px;
-    margin-left: -4rem;
+    margin-left: -40px;
     z-index: 99;
     background-color: #444;
     color: white;
