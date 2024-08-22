@@ -651,19 +651,7 @@ footer {
   #navbar-links a {
     background: #444;
   }
-  .navbar-brand {
-    margin-top: -80px;
-    padding-bottom: 1rem;
-  }
-  button.navbar-toggler {
-    margin: 0 auto;
-    margin-top: -7rem;
-    margin-left: -1rem;
-  }
-  button.navbar-toggler:hover {
-    transition: all .3s ease-in-out;
-    background: #3ec1d5;
-  }
+  
   /* slider */
   #mainSlider .carousel-inner, #mainSlider .carousel-item {
     width: 100%;
