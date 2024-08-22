@@ -785,7 +785,7 @@ footer {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: -.7em;
+    margin-left: -4rem;
     z-index: 99;
     background-color: #444;
     color: white;
@@ -794,6 +794,17 @@ footer {
     padding: 10px;
     font-size: 18px;
   }
+  
+#scrollTopBtn i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#scrollTopBtn:hover {
+  transition: all .3s ease-in-out;
+  background-color: #65DAF9;
+}
 }
 /* animações */
 .main-title, .about-text, .about-img, .service1, .service2, .service3, .service4, .service5, .service6, .animate-products, .fone, .email, .local{
