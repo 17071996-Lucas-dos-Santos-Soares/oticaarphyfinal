@@ -778,12 +778,12 @@ footer {
     border-radius: 10px;
   }
   #scrollTopBtn {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     display: none;
     position: fixed;
     bottom: 20px;
-    margin-left: -500px;
+    margin-left: -100%;
     z-index: 99;
     background-color: #444;
     color: white;
