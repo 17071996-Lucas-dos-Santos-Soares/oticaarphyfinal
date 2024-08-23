@@ -507,7 +507,7 @@ input.form-control {
   outline: none;
 }
 
-#scrollTopBtn {
+#scrollToTopBtn {
   width: 40px;
   height: 40px;
   display: none;
@@ -523,13 +523,13 @@ input.form-control {
   font-size: 18px;
 }
 
-#scrollTopBtn i {
+#scrollToTopBtn i {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#scrollTopBtn:hover {
+#scrollToTopBtn:hover {
   transition: all .3s ease-in-out;
   background-color: #65DAF9;
 }
@@ -784,7 +784,7 @@ footer {
     height: 130px;
     border-radius: 10px;
   }
-  #scrollTopBtn {
+  #scrollToTopBtn {
     width: 40px;
     height: 40px;
     display: none;
@@ -803,13 +803,13 @@ footer {
     font-size: 18px;
   }
   
-#scrollTopBtn i {
+#scrollToTopBtn i {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#scrollTopBtn:hover {
+#scrollToTopBtn:hover {
   transition: all .3s ease-in-out;
   background-color: #65DAF9;
 }
