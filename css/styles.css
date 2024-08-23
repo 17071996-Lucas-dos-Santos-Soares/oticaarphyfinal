@@ -638,6 +638,9 @@ footer {
 
 /* responsividade celular */
 @media(max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
   h3.card-text {
     font-size: 1.1rem;
   }
