@@ -259,17 +259,15 @@ revelar.reveal('.local', {
   origin: 'bottom'
 })
 
-
-$(window).scroll(function() {
-  if ($(this).scrollTop() > 100) {
-      $('#scrollToTopBtn').fadeIn();
+window.onscroll = function() {
+  let scrollToTopBtn = document.querySelector("#scrollToTopBtn");
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      scrollToTopBtn.style.display = "block";
   } else {
-      $('#scrollToTopBtn').fadeOut();
+      scrollToTopBtn.style.display = "none";
   }
-});
+};
 
-
-$('#scrollToTopBtn').click(function() {
-  $('html, body').animate({scrollTop: 0}, 600);
-  return false;
-});
+document.querySelector("#scrollToTopBtn").onclick = function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
