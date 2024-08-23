@@ -810,6 +810,13 @@ footer {
   transition: all .3s ease-in-out;
   background-color: #65DAF9;
 }
+
+footer {
+  width: 100%;
+  padding: 10px 50px;
+  background: #F9F9F9;
+}
+
 }
 /* animações */
 .main-title, .about-text, .about-img, .service1, .service2, .service3, .service4, .service5, .service6, .animate-products, .fone, .email, .local{
