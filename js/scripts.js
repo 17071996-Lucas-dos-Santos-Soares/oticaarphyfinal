@@ -259,19 +259,17 @@ revelar.reveal('.local', {
   origin: 'bottom'
 })
 
-// rolar para cima
 
-window.onscroll = function() {scrollFunction()};
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 100) {
+      $('#scrollToTopBtn').fadeIn();
+  } else {
+      $('#scrollToTopBtn').fadeOut();
+  }
+});
 
-function scrollFunction() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        document.getElementById("scrollTopBtn").style.display = "block";
-    } else {
-        document.getElementById("scrollTopBtn").style.display = "none";
-    }
-}
 
-function scrollToTop() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
+$('#scrollToTopBtn').click(function() {
+  $('html, body').animate({scrollTop: 0}, 600);
+  return false;
+});
