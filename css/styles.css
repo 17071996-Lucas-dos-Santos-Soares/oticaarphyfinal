@@ -792,10 +792,10 @@ footer {
     justify-content: center;
     position: fixed;
     bottom: 20px;
+    margin-left: -100%;
     overflow: hidden;
     z-index: 99;
     background-color: #444;
-    margin-right: -100px;
     color: white;
     border: none;
     border-radius: 50%;
