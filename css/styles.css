@@ -792,7 +792,7 @@ footer {
     overflow: hidden;
     z-index: 99;
     background-color: #444;
-    margin-left: 100px;
+    margin-right: -100px;
     color: white;
     border: none;
     border-radius: 50%;
