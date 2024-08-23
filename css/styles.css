@@ -632,6 +632,7 @@ input.form-control {
 
 footer {
   width: 100%;
+  padding: 10px 50px;
   background: #F9F9F9;
 }
 
@@ -784,11 +785,14 @@ footer {
     width: 40px;
     height: 40px;
     display: none;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     bottom: 20px;
-    margin-left: -100%;
+    overflow: hidden;
     z-index: 99;
     background-color: #444;
+    margin-left: 100px;
     color: white;
     border: none;
     border-radius: 50%;
