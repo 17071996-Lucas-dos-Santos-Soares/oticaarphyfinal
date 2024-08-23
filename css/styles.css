@@ -784,7 +784,7 @@ footer {
     height: 130px;
     border-radius: 10px;
   }
-  #scrollTopBtn button {
+  #scrollTopBtn {
     width: 40px;
     height: 40px;
     display: none;
@@ -792,6 +792,7 @@ footer {
     bottom: 20px;
     right: 0px;
     margin: 0 auto;
+    margin-left: -4rem;
     overflow: hidden;
     z-index: 99;
     background-color: #444;
