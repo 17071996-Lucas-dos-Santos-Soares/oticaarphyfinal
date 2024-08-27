@@ -675,8 +675,8 @@ footer {
     margin-bottom: 40px;
   }
 .img-fluid {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
 }
 .about-title {
   text-align: center;
@@ -758,35 +758,6 @@ footer {
     height: 130px;
     border-radius: 10px;
   }
-  #scrollToTopBtn {
-    width: 40px;
-    height: 40px;
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 0px;
-    margin: 0 auto;
-    margin-left: -4rem;
-    overflow: hidden;
-    z-index: 99;
-    background-color: #444;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    padding: 10px;
-    font-size: 18px;
-  }
-  
-#scrollToTopBtn i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#scrollToTopBtn:hover {
-  transition: all .3s ease-in-out;
-  background-color: #65DAF9;
-}
 
 footer {
   width: 100%;
@@ -796,6 +767,6 @@ footer {
 
 }
 /* animações */
-.main-title, .about-text, .about-img, .service1, .service2, .service3, .service4, .service5, .service6, .animate-products, .fone, .email, .local{
+.main-title, .about-text, .about-img, .service1, .service2, .service3, .service4, .service5, .service6,.service7 .animate-products, .fone, .email, .local{
   visibility: hidden;
 }
