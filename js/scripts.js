@@ -218,7 +218,12 @@ revelar.reveal('.service6', {
   delay: 1400,
   origin: 'right'
 })
-
+revelar.reveal('.service7', {
+  duration: 2000,
+  distance: '90px',
+  delay: 1000,
+  origin: 'left'
+})
 revelar.reveal('.about-img', {
   duration: 2000,
   distance: '90px',
